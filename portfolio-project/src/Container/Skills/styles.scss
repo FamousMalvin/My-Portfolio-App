@@ -18,11 +18,11 @@
 .skills-CategoryTitle {
   font-size: 2.3rem;
   font-weight: 600;
-  color: var(--yellow-theme-main-color);
+  color: var(--yellow-theme-sub-text-color);
   margin-top: 20px;
   border-bottom: 2px solid var(--yellow-theme-main-color);
   display: inline-block;
-  line-height: 2rem;
+  line-height: 2.5rem;
   padding: 0 1rem;
   width: fit-content;
 }
@@ -33,7 +33,7 @@
   content: "";
   width: 2px;
   flex: 1;
-  height: 5px;
+  height: 3px;
   background-color: var(--yellow-theme-main-color);
   bottom: 300px;
   

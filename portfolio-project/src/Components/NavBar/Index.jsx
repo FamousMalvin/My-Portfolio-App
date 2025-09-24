@@ -13,27 +13,27 @@ const data = [
 
   {
     label: "ABOUT ME",
-    to: "About",
+    to: "/About",
   },
 
   {
     label: "SKILLS",
-    to: "skills",
+    to: "/skills",
   },
 
   {
     label: "RESUME",
-    to: "Resume",
+    to: "/Resume",
   },
 
   {
     label: "PORTFOLIO",
-    to: "portfolio",
+    to: "/portfolio",
   },
 
   {
     label: "CONTACT",
-    to: "contact",
+    to: "/contact",
   },
 ];
 

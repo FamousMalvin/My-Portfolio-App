@@ -13,14 +13,14 @@ export const data = {
       subTitle: "STERLING BANK PLC",
       place:"ABA, Nigeria",
       description:
-        "Engages with customers, Represents the brand ",
+        "Engage with customers, Resolve Disputes, Onboard Customers via Bank Product, Represents the brand ",
     },
     ],
 
     education: [
     {
-      title: "SSCE",
-      subTitle: "OKORONODU",
+      title: "Secondary School Certificate Education",
+      subTitle: "OKORONODU Community Secondary School RUMAHUORLU",
       place:"Port-Harcourt, Nigeria",
       description:
         "O'Level Certificate",
@@ -31,7 +31,7 @@ export const data = {
       subTitle: "KENSAROWIWA POLYTECHNIC",
       place:"BORI, RIVERS STATE, Nigeria",
       description:
-        "HND CERTIFICATE ",
+        "HND Certificate ",
     },
     ],
 
