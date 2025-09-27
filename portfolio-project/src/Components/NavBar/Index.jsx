@@ -69,6 +69,10 @@ const NavBar = () => {
           {toggleIcon ? <HiX size={30} /> : <FaBars size={30} />}
         </div>
       </nav>
+      <div className="page-content">
+        {/* Placeholder for page content */}
+        <p>This is the page content.</p>
+      </div>
     </div>
   );
 };
