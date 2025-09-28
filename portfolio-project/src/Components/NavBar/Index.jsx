@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import { FaBars, FaReact } from "react-icons/fa";
 import { HiX } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import  "./styles.scss";
+import "./styles.scss";
 
 //Create Data to render links
 const data = [
   {
     label: "HOME",
-    to: "/"
+    to: "/",
   },
 
   {
@@ -52,9 +52,8 @@ const NavBar = () => {
             <FaReact size={30} />
           </Link>
         </div>
-       
-        
-        <ul className= {`navbar-Container-menu ${toggleIcon ? 'active' : ""} `}>
+
+        <ul className={`navbar-Container-menu ${toggleIcon ? "active" : ""} `}>
           {data.map((item, key) => {
             return (
               <li key={key} className="navbar-container-menu-item">
@@ -69,10 +68,6 @@ const NavBar = () => {
           {toggleIcon ? <HiX size={30} /> : <FaBars size={30} />}
         </div>
       </nav>
-      <div className="page-content">
-        {/* Placeholder for page content */}
-        <p>This is the page content.</p>
-      </div>
     </div>
   );
 };
